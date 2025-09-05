@@ -1,7 +1,7 @@
 ######Group members######
 1. Sena Goshime----- UGE/24116/13
 2. Sifen Abu------- UGE/24125/13
-3. Oumer Ahmed------UGE/24113/13
+3. Oumer Hussen------UGE/24113/13
 4. Firaol Jundi -----UGE/24102/13
 
 # shadcn/ui monorepo template
