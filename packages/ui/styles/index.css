@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Shared styles go here */
+body {
+  font-family: system-ui, sans-serif;
+}

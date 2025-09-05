@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans antialiased;
+  }
+}
+
+@layer components {
+  .emergency-priority-critical {
+    @apply border-l-4 border-red-500 bg-red-50;
+  }
+
+  .emergency-priority-urgent {
+    @apply border-l-4 border-yellow-500 bg-yellow-50;
+  }
+
+  .emergency-priority-stable {
+    @apply border-l-4 border-green-500 bg-green-50;
+  }
+}

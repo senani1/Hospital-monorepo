@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans antialiased;
+  }
+}
+
+@layer components {
+  .pharmacy-low-stock {
+    @apply border-l-4 border-red-500 bg-red-50;
+  }
+
+  .pharmacy-in-stock {
+    @apply border-l-4 border-green-500 bg-green-50;
+  }
+
+  .pharmacy-search-highlight {
+    @apply bg-yellow-200 font-medium;
+  }
+}

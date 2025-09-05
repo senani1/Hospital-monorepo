@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans antialiased;
+  }
+}
+
+@layer components {
+  .surgery-available {
+    @apply border-l-4 border-green-500 bg-green-50;
+  }
+
+  .surgery-busy {
+    @apply border-l-4 border-blue-500 bg-blue-50;
+  }
+
+  .surgery-off-duty {
+    @apply border-l-4 border-gray-500 bg-gray-50;
+  }
+
+  .rating-stars {
+    @apply flex items-center space-x-1;
+  }
+}

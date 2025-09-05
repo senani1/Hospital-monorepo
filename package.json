@@ -1,0 +1,23 @@
+{
+  "name": "hospital-ui",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/welcome.js && pnpm run dev:all",
+    "dev:all": "concurrently \"pnpm --filter emergency dev\" \"pnpm --filter pharmacy dev\" \"pnpm --filter surgery dev\"",
+    "build": "turbo build",
+    "start": "turbo start",
+    "lint": "turbo lint"
+  },
+  "devDependencies": {
+    "@workspace/eslint-config": "workspace:*",
+    "@workspace/typescript-config": "workspace:*",
+    "concurrently": "^8.0.0",
+    "prettier": "^3.0.0",
+    "turbo": "^2.4.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@radix-ui/react-label": "^2.1.7",
+    "next-themes": "^0.4.6"
+  }
+}
